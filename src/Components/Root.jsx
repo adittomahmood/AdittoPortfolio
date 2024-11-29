@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/react";
 import React from "react";
 import { Outlet } from "react-router-dom";
 import Footer from "./Footer";
@@ -11,6 +12,7 @@ const Root = () => {
         <Outlet></Outlet>
       </div>
       <Footer></Footer>
+      <Analytics />
     </div>
   );
 };
