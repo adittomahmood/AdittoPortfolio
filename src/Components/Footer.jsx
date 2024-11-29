@@ -1,75 +1,110 @@
 import React from "react";
 
+import { FaFacebook, FaLinkedin, FaGithub, FaTwitter } from "react-icons/fa";
+
 const Footer = () => {
   return (
-    <div>
-      <footer className="footer footer-center p-10 bg-slate-950 text-primary-content">
-        <aside className="p-4">
-          <p className="font-bold text-3xl">
-            Lets Connect <br />
-          </p>
-        </aside>
-        <nav>
-          <div className="grid grid-flow-col gap-4">
-            <a
-              href="https://www.linkedin.com/in/adittomahmood/"
-              target="_blank"
-            >
-              <svg
-                fill="#ffffff"
-                height="45"
-                width="45"
-                version="1.1"
-                id="Layer_1"
-                xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink"
-                viewBox="0 0 310 310"
-                xml:space="preserve"
-                stroke="#ffffff"
-              >
-                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                <g
-                  id="SVGRepo_tracerCarrier"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                ></g>
-                <g id="SVGRepo_iconCarrier">
-                  {" "}
-                  <g id="XMLID_801_">
-                    {" "}
-                    <path
-                      id="XMLID_802_"
-                      d="M72.16,99.73H9.927c-2.762,0-5,2.239-5,5v199.928c0,2.762,2.238,5,5,5H72.16c2.762,0,5-2.238,5-5V104.73 C77.16,101.969,74.922,99.73,72.16,99.73z"
-                    ></path>{" "}
-                    <path
-                      id="XMLID_803_"
-                      d="M41.066,0.341C18.422,0.341,0,18.743,0,41.362C0,63.991,18.422,82.4,41.066,82.4 c22.626,0,41.033-18.41,41.033-41.038C82.1,18.743,63.692,0.341,41.066,0.341z"
-                    ></path>{" "}
-                    <path
-                      id="XMLID_804_"
-                      d="M230.454,94.761c-24.995,0-43.472,10.745-54.679,22.954V104.73c0-2.761-2.238-5-5-5h-59.599 c-2.762,0-5,2.239-5,5v199.928c0,2.762,2.238,5,5,5h62.097c2.762,0,5-2.238,5-5v-98.918c0-33.333,9.054-46.319,32.29-46.319 c25.306,0,27.317,20.818,27.317,48.034v97.204c0,2.762,2.238,5,5,5H305c2.762,0,5-2.238,5-5V194.995 C310,145.43,300.549,94.761,230.454,94.761z"
-                    ></path>{" "}
-                  </g>{" "}
-                </g>
-              </svg>
-            </a>
+    <footer className="bg-black text-white py-16 px-6 relative overflow-hidden">
+      {/* Starry background effect */}
+      <div className="absolute inset-0 bg-black z-0 animate-pulse-slow opacity-80">
+        {Array.from({ length: 50 }).map((_, index) => (
+          <div
+            key={index}
+            className="absolute bg-white/20 rounded-full"
+            style={{
+              width: '2px',
+              height: '2px',
+              top: `${Math.random() * 100}%`,
+              left: `${Math.random() * 100}%`,
+              animationDelay: `${Math.random() * 3}s`,
+              animation: 'twinkle 3s infinite alternate'
+            }}
+          />
+        ))}
+      </div>
 
-            <a href="https://www.facebook.com/adittoAwesome/" target="_blank">
-              <svg
-                fill="#ffffff"
-                xmlns="http://www.w3.org/2000/svg"
-                width="50"
-                height="50"
-                viewBox="0 0 24 24"
-                className="fill-current"
-              >
-                <path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path>
-              </svg>
-            </a>
-          </div>
-        </nav>
-      </footer>
-    </div>
+      <div className="container mx-auto flex flex-col items-center space-y-8 relative z-10">
+        <h2 className="text-5xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-600 animate-gradient-x">
+          Let's Connect
+        </h2>
+
+        <div className="flex space-x-8 items-center justify-center">
+          {/* LinkedIn Link */}
+          <a
+            href="https://www.linkedin.com/in/adittomahmood/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="transform transition-all duration-300 hover:scale-125 hover:rotate-6 hover:text-blue-400"
+          >
+            <FaLinkedin
+              size={60}
+              className="bg-white/10 rounded-full p-3 hover:bg-white/20 transition-all duration-300 hover:shadow-lg hover:shadow-blue-500/50"
+            />
+          </a>
+
+          {/* Facebook Link */}
+          <a
+            href="https://www.facebook.com/adittoAwesome/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="transform transition-all duration-300 hover:scale-125 hover:-rotate-6 hover:text-blue-600"
+          >
+            <FaFacebook
+              size={60}
+              className="bg-white/10 rounded-full p-3 hover:bg-white/20 transition-all duration-300 hover:shadow-lg hover:shadow-blue-500/50"
+            />
+          </a>
+
+          {/* GitHub Link */}
+          <a
+            href="https://github.com/adittomahmood"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="transform transition-all duration-300 hover:scale-125 hover:rotate-3 hover:text-purple-400"
+          >
+            <FaGithub
+              size={60}
+              className="bg-white/10 rounded-full p-3 hover:bg-white/20 transition-all duration-300 hover:shadow-lg hover:shadow-purple-500/50"
+            />
+          </a>
+
+    
+        </div>
+
+        <div className="text-center text-sm text-gray-400 mt-6">
+          © {new Date().getFullYear()} Aditto Mahmood. All Rights Reserved
+        </div>
+      </div>
+
+      {/* Custom styles for starry background and gradient animation */}
+      <style jsx>{`
+        @keyframes twinkle {
+          0% { opacity: 0; }
+          50% { opacity: 1; }
+          100% { opacity: 0; }
+        }
+
+        @keyframes gradient-x {
+          0% { background-position: 0% 50%; }
+          50% { background-position: 100% 50%; }
+          100% { background-position: 0% 50%; }
+        }
+
+        .animate-pulse-slow {
+          animation: pulse 5s infinite;
+        }
+
+        .animate-gradient-x {
+          background-size: 200% 200%;
+          animation: gradient-x 5s ease infinite;
+        }
+
+        @keyframes pulse {
+          0%, 100% { opacity: 0.7; }
+          50% { opacity: 0.9; }
+        }
+      `}</style>
+    </footer>
   );
 };
 

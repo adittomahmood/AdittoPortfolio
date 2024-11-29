@@ -1,0 +1,78 @@
+[
+  {
+    "title": "AdittoCodes",
+    "description": "My personal Youtube Channel",
+    "image": "https://i.ibb.co/Xj8yDfp/logo.png",
+    "link": "https://adittocodes.vercel.app/"
+  },
+  {
+    "title": "Home Decoration Shopping Website",
+    "description": "A sleek and modern online shopping platform designed for home decoration enthusiasts.",
+    "image": "https://i.ibb.co/tMzw2p0/Home-Deco.png",
+    "link": "https://adittomahmood.github.io/Dynamic-Sale-Website/"
+  },
+  {
+    "title": "Course Registration Website",
+    "description": "Introducing 'Course Registration' a user-friendly website built with the React framework.",
+    "image": "https://i.ibb.co/8sJnXpB/Course-Registration.png",
+    "link": "https://courseregistrationaditto.netlify.app/"
+  },
+  {
+    "title": "Demo FSIB Bank",
+    "description": "I've developed a functional demo of DEMO FSIB Bank featuring a user-friendly online portal. The portal offers secure user login, enabling customers to access their accounts.",
+    "image": "https://i.ibb.co/Syp4Mm7/FSIB-Bank.png",
+    "link": "https://adittomahmood.github.io/FSIB-Demo-Bank/",
+    "credentials": {
+      "email": "adittomahmood@gmail.com",
+      "password": "aditto123"
+    }
+  },
+  {
+    "title": "Nature Wonders Tv",
+    "description": "NatureWondersTV is a groundbreaking website that leverages APIs for data gathering, verification, and dynamic content display.",
+    "image": "https://i.ibb.co/DgZpGsT/Nature-Wonders-Tv.png",
+    "link": "https://adittomahmood.github.io/NatureWonders-TV/"
+  },
+  {
+    "title": "App Recorder",
+    "description": "Presenting my cutting-edge web-based recording application! Designed to deliver unparalleled functionality through web browsers (Works Only in web chrome browser).",
+    "image": "https://i.ibb.co/X21Wjb1/App-Recorder.png",
+    "link": "https://adittomahmood.github.io/RecordingApp/"
+  },
+  {
+    "title": "Guess My Number",
+    "description": "\"Guess My Number\" is an interactive web-based game where players attempt to guess a randomly generated number between 1 and 20",
+    "image": "https://i.ibb.co/MRhNQ61/Guess-My-Number.png",
+    "link": "https://adittomahmood.github.io/Guess-My-Number-Game-/"
+  },
+  {
+    "title": "Dice Game",
+    "description": "I have created online dice game! Roll the virtual dice and test your luck against friends or computer opponents.",
+    "image": "https://i.ibb.co/cYL7gSw/Dice-Game.png",
+    "link": "https://adittoproject2.netlify.app/"
+  },
+  {
+    "title": "Rest Countries",
+    "description": "I have created a rest countries website where I integrated and fetched from online API using react framework.",
+    "image": "https://i.ibb.co/yg745bq/Rest-Countries.png",
+    "link": "https://restcountries-aditto.netlify.app/"
+  },
+  {
+    "title": "Simple Calculation Website",
+    "description": "I developed a Simple Calculation Website using JavaScript, HTML, and CSS.",
+    "image": "https://i.ibb.co/r4KKKR5/Calculation-Website.png",
+    "link": "https://adittomahmood.github.io/Geometry-Genius/"
+  },
+  {
+    "title": "Fruit Burst",
+    "description": "My fully responsive website, crafted with HTML, CSS, and JavaScript.",
+    "image": "https://i.ibb.co/0XzHXnC/Fruit-Burst.png",
+    "link": "https://adittomahmood.github.io/FruitBurst/"
+  },
+  {
+    "title": "Gamer Zone",
+    "description": "I developed a gaming Website using JavaScript, HTML, and CSS. It is also responsive in mobile phones.",
+    "image": "https://i.ibb.co/8Dcb5dz/Gamer-Zone.png",
+    "link": "https://adittomahmood.github.io/GamerProfile/"
+  }
+]
