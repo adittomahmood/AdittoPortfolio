@@ -15,7 +15,7 @@ const Banner = () => {
       <div className="hero min-h-screen">
         <div className="hero-content flex-col lg:flex-row-reverse">
           <img
-            src="https://i.ibb.co/tK0f7Hm/Image.jpg"
+            src="https://i.ibb.co.com/sjCnsJx/464346236-450375494768469-5842341053293853921-n.jpg"
             className="max-w-sm max-lg:w-80 rounded-lg shadow-2xl"
           />
           <div>
